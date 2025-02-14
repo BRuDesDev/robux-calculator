@@ -18,17 +18,17 @@ To use the Robux Calculator, follow these steps:
          python3 -m venv .venv
          source .venv/bin/activate  
 
-6. Install the package using pip:
+4. Install the package using pip:
 
-         pip install -r requirements.txt
-
+         pip install .
 
 ## Usage
 Once the package is installed, you can run the Robux Calculator from the command line using the following command:
         
         robux_calculator
 
-If this does not work, you should check your $PATH. But alternately, open the program by changing dir into robux-calculator/robux_calculator/, 
+If this does not work, you should check your $PATH. 
+But alternately, open the program by changing dir into robux-calculator/robux_calculator/, 
       and manaually run the __main__.py file using Python3. 
 
         cd ~/Python/RobuxCalculator/robux_calculator
